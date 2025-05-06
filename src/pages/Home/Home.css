@@ -1,0 +1,177 @@
+.home-container {
+    font-family: sans-serif;
+    background-color: #fdf0dd;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    background-color: #90ceb5;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo img {
+    width: 80px;
+    height: auto;
+  }
+
+  .logo span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    }
+    
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    align-items: center;
+  }
+  
+  nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .hero {
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    flex: 1 1 300px;
+    margin-bottom: 1rem;
+    font-size:35px;
+  }
+  
+  .hero-text h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 150px;
+    font-weight: 800;
+    color: #000000;
+  }
+  
+  .hero-image {
+    flex: 1 1 200px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .match-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #f97f51;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+  }
+  
+  .adopta {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .filters {
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  
+  .cards {
+    flex: 3 1 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background-color: #f3b185;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .footer {
+    background-color: #a8d5ba;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1rem;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 0.5rem 0;
+  }
+  
+  .next {
+    text-align: right;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .adopta {
+      flex-direction: column;
+    }
+  
+    .cards {
+      justify-content: center;
+    }
+  
+    nav {
+      width: 100%;
+      justify-content: flex-start;
+    }
+  }
+  
